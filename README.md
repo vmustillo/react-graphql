@@ -10,4 +10,4 @@
     * GraphQL
     * Node
 * Database
-    *MongoDB
+    * MongoDB
