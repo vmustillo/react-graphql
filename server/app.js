@@ -9,6 +9,7 @@ const app = express();
 const OPTS = { useNewUrlParser: true };
 mongoose.connect(process.env.URI, OPTS, err => {
   if (err) {
+    console.error(err);
     return console.error('Failed to connect to db');
   } else {
     console.log('Successfully connected to db');
